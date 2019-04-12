@@ -1,0 +1,102 @@
+body{
+  background-image: url("../img/sun.gif");
+  background-color: #E2A68A;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+.app{
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+
+.col1, .col2{
+  min-height: 100vh;
+}
+
+.header{
+  font-size: 6vw;
+  margin:0;
+  color:#E2A68A;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.nav-list{
+  min-height: 100vh;
+  list-style: none;
+  padding:0;
+  margin: 0;
+}
+
+.nav-list li{
+
+padding: 40px 40px;
+display:block;
+}
+.nav-list li a{
+text-decoration: none;
+color:#E2A68A;
+font-size: 16px;
+ display:block;
+ padding:20px 40px;
+ font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+.mercury-li:hover{
+background-image:url('../img/mercury-trans.png');
+background-size: cover;
+
+}
+.venus-li:hover{
+background-image:url('../img/venus-trans.png');
+background-size: cover;
+}
+.earth-li:hover{
+background-image:url('../img/earth-trans.png');
+background-size: cover;
+
+}
+.mars-li:hover{
+background-image:url('../img/mars-trans.png');
+background-size: cover;
+}
+.jupiter-li:hover{
+background-image:url('../img/jupiter-trans.png');
+background-size: cover;
+}
+.saturn-li:hover{
+background-image:url('../img/saturn2-trans.png');
+background-size: cover;
+}
+.uranus-li:hover{
+background-image:url('../img/uranus-trans.png');
+background-size: cover;
+}
+.neptune-li:hover{
+background-image:url('../img/neptune-trans.png');
+background-size: cover;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+  .col1{order:2;}
+  .col2{order:1;}
+  .header{
+    font-size: 10vw;
+    text-align: right;
+  }
+}
